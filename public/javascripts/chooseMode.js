@@ -10,8 +10,8 @@ let kidsButton = document.querySelector('.kidsButton');
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render(toRender, {
-    title: 'What Up MF?',
-    message : "handlebars is awesome",
+    title: 'Hello',
+    message : "Change View Mode",
     mainpage : false,
     cms : false,
     landing: false,
