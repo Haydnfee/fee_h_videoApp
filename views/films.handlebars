@@ -1,16 +1,25 @@
-<a href="/">
-  <i class="fa-fa-home"></i>
-</a>
+<header>
+<nav>
+ <ul>
+  <li>
+    <a href="/getFilms" class="get-posts ageGroup">Adults</a>
+  </li>
+  <li>
+    <a href="/getKidsFilms" class="get-one ageGroup">Kids</a>
+  </li>
+</ul>
+</nav>
+</header>
+
 
 <h1>{{ message }}</h1>
 
 <ul>
   {{#each filmData}}
     <li>
-      <h4>{{ movies_title }}</h4>
-      <p>{{ movies_runtime }}</p>
-      <p>{{ movies_storyline }}</p>
-      <img class="videoThumb" src="images/guardians2.jpg">
+      <h4>{{ movie_title }}</h4>
+      <p>{{ movie_runtime }}</p>
+      <p>{{ movie_desc }}</p>
     </li>
   {{/each}}
 </ul>

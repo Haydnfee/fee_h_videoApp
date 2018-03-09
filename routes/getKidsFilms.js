@@ -10,9 +10,9 @@ router.get('/', (req, res) => {
     } else {
       console.log(result);
 
-      res.render('cars', {
-        title: 'Mini Cars',
-        message : "A Selection of Minis",
+      res.render('main_kids', {
+        title: 'Kids Movies',
+        message : "Welcome to the kids page",
         carData : result
       });
     }

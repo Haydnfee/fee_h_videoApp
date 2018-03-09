@@ -1,9 +1,9 @@
 var config = {
   user : "root",
-  password : "", // leave this blank for windows machines
+  password : "",
   port: 3306,
   host: "localhost",
-  database: "db_movies",
+  database: "db_videoapp",
 }
 
 module.exports = config;

@@ -1,8 +1,93 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+html
+{
+  background-image: url("../images/wov.png");
 }
 
-a {
-  color: #00B7FF;
+header
+{
+  background-color:white;
+  text-align: center;
+}
+
+body 
+{
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; 
+  margin: 0 auto;
+}
+
+h1 
+{
+  font-size: 50px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h3
+{
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+#homeCon
+{
+  text-align: center;
+  margin-top: 50px;
+}
+
+#homeCon ul 
+{
+  padding: 0;
+}
+
+
+#homeCon ul li 
+{
+  display: inline;
+  margin-right: 80px;
+}
+
+#homeCon ul li:last-child 
+{
+  margin-right: 0px;
+}
+
+#homeCon a 
+{
+  color: rgb(197, 0, 0);
+  background-color: rgb(255, 204, 204);
+  padding: 5px 10px 5px 10px;
+  border: 3px solid rgb(201, 160, 160);
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+#homeCon a:hover
+{
+  text-decoration: underline;
+}
+
+nav ul
+{
+  margin: 0 auto;
+  padding: 6px;
+}
+
+nav ul li
+{
+    display: inline;
+    padding: 20px;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 32px;
+    color: rgb(56, 56, 56);
+}
+
+nav ul li a:hover
+{
+  text-decoration: underline;
 }

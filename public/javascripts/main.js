@@ -39,13 +39,7 @@
         'Accept' : 'application/json, text-plain, */*',
         'Content-type' : 'application/json'
       },
-      body: JSON.stringify({
-        model : "F56",
-        modelName : "Mini Cooper F56",
-        pricing : "22, 190",
-        modelDetails : "desc",
-        imgPath : "F56.jpg"
-      })
+      
     })
     .then((resp) => resp.json())
     .then((data) => {

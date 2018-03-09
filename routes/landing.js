@@ -9,8 +9,8 @@ var toRender = 'landing';
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render(toRender, {
-    title: 'What Up?',
-    message : "handlebars is awesome",
+    title: 'Hello,',
+    message : "Welcome to the Roku Video App",
     mainpage : false,
     landing: true,
     cms : false,
