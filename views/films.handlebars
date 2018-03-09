@@ -1,0 +1,16 @@
+<a href="/">
+  <i class="fa-fa-home"></i>
+</a>
+
+<h1>{{ message }}</h1>
+
+<ul>
+  {{#each filmData}}
+    <li>
+      <h4>{{ movies_title }}</h4>
+      <p>{{ movies_runtime }}</p>
+      <p>{{ movies_storyline }}</p>
+      <img class="videoThumb" src="images/guardians2.jpg">
+    </li>
+  {{/each}}
+</ul>
